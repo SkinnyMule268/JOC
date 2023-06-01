@@ -1,0 +1,34 @@
+html
+
+header {
+    background-color: #A020F0;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    max-width: 1600px;
+    max-height:100px;
+}
+
+main {
+    margin: 20px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 400px;
+    height: 600px;
+}
+
+.image-container p {
+    margin-top: 10px;
+    text-align: center;
+}
